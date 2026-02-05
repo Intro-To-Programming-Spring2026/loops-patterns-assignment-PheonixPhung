@@ -8,6 +8,9 @@ print("--------------------")
 # This number will control your pattern
 num = int(input("Enter a number: "))
 
+for i in range(1, num + 3):
+  print("*"*1)
+  print("Pattern complete!")
 # TODO 2: Use a for loop to create a pattern
 # Example ideas:
 # - Print a symbol multiple times
